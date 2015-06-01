@@ -1,0 +1,24 @@
+{
+  "name": "@nib-components/delegate",
+  "version": "0.1.0",
+  "description": "Event delegation component",
+  "keywords": [
+    "event",
+    "events",
+    "delegate",
+    "delegation"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-components/delegate.git"
+  },
+  "dependencies": {
+    "component-matches-selector": "*",
+    "component-event": "*"
+  },
+  "browser": {
+    "matches-selector": "component-matches-selector",
+    "event": "component-event"
+  }
+}
